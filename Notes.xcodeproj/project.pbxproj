@@ -57,6 +57,7 @@
 		1526BCAF259D948900D494DD /* network.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = network.md; sourceTree = "<group>"; };
 		1526BCB0259D948900D494DD /* runtime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = runtime.md; sourceTree = "<group>"; };
 		1526BCB1259D948900D494DD /* tmux.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = tmux.md; sourceTree = "<group>"; };
+		1526BCC2259DE70100D494DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 		1526BCA3259D946B00D494DD /* docs */ = {
 			isa = PBXGroup;
 			children = (
+				1526BCC1259DE66400D494DD /* jailbreak */,
 				1526BCAD259D948800D494DD /* _sidebar.md */,
 				1526BCA5259D948800D494DD /* about.md */,
 				1526BCA7259D948800D494DD /* block.md */,
@@ -124,6 +126,14 @@
 				1526BCB1259D948900D494DD /* tmux.md */,
 			);
 			path = docs;
+			sourceTree = "<group>";
+		};
+		1526BCC1259DE66400D494DD /* jailbreak */ = {
+			isa = PBXGroup;
+			children = (
+				1526BCC2259DE70100D494DD /* README.md */,
+			);
+			path = jailbreak;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
